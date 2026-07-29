@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body, #root {
+  background: #0D1B24;
+  min-height: 100%;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+}
+
+::-webkit-scrollbar { height: 6px; width: 6px; }
+::-webkit-scrollbar-thumb { background: #8A6A42; border-radius: 4px; }
+::-webkit-scrollbar-track { background: transparent; }
+
+.snap-x-child { scroll-snap-align: start; }
+
+.no-scrollbar::-webkit-scrollbar { display: none; }
+.no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+
+@keyframes twinkle { 0%, 100% { opacity: .25; } 50% { opacity: .9; } }
+.star { animation: twinkle 3.5s ease-in-out infinite; }
+
+@keyframes fadeIn { from { opacity: 0; transform: translateY(6px); } to { opacity: 1; transform: translateY(0); } }
+.fade-in { animation: fadeIn .5s ease both; }
