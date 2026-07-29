@@ -173,7 +173,7 @@ export default function App() {
               <circle cx="24" cy="24" r="9" fill="#D99A56" />
               <circle cx="24" cy="24" r="16" stroke="#8A6A42" strokeWidth="1.5" fill="none" />
             </svg>
-            <h1 className="font-display text-parchment text-2xl tracking-wide">WeatherApp</h1>
+            <h1 className="font-display text-parchment text-2xl tracking-wide"></h1>
           </div>
 
           <div className="flex items-center gap-2 w-full sm:w-auto">
