@@ -10,8 +10,7 @@ using the free [Open-Meteo](https://open-meteo.com) API
 - °C / °F unit toggle
 - Current conditions with a sun-arc sunrise/sunset gauge
 - 24-hour hourly forecast strip
-- 7-day daily forecast with hi/lo range bars
+- 7-day daily forecast with high/low range bars
 - Humidity, wind speed + direction, sunrise/sunset
-- Fully responsive, dark "instrument panel" design
-  or `https://` — this works out of the box with `npm run dev`.
+- Fully responsive design
 - If geolocation is denied or unavailable, the app falls back to New Delhi.
