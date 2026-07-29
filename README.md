@@ -1,4 +1,4 @@
-# SkyGauge — Weather Forecast App
+Weather Forecast App
 
 A responsive weather forecasting app built with React, Vite, and Tailwind CSS,
 using the free [Open-Meteo](https://open-meteo.com) API (no API key required).
